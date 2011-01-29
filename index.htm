@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <title>JsYoutube</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link type="text/css" rel="stylesheet" href="jquery.youtube-0.1/jquery.youtube.css" media="screen" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+        <script type="text/javascript" src="jquery.youtube-0.1/jquery.youtube-0.1.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                Youtube.user        = 'mrprompt';
+                Youtube.container   = '#youtube';
+                Youtube.playerAltura= 480;
+                Youtube.playerLargura = 640;
+                Youtube.listaVideos();
+            });
+        </script>
+    </head>
+    <body>
+        <div id="youtube"></div>
+    </body>
+</html>

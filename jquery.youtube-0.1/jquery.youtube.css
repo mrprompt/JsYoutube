@@ -1,0 +1,17 @@
+#youtube a {
+    display: block;
+    float: left;
+    margin: 2pt;
+    text-decoration: none;
+    width: 130px;
+    height: 100px;
+}
+#youtube a img {
+    border: 1px solid #DDD;
+    padding: 4px;
+    display: block;
+    margin: 0 auto .5em auto;
+}
+#youtube a b {
+    color: #000;
+}

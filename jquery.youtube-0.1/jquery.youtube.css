@@ -15,3 +15,9 @@
 #youtube a b {
     color: #000;
 }
+#youtube #player {
+    display: block;
+    width: 640px;
+    height: 500px;
+    float: left;
+}
